@@ -1,0 +1,640 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  border: 1px solid #000;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  background: white;
+}
+i.fa.fa-plus.fa-style {
+  font-size: 20px;
+  color: black;
+}
+i.fa.fa-minus.fa-style {
+  font-size: 20px;
+  color: black;
+}
+i.fa.fa-plus.fa-style:hover {
+  color: red;
+}
+i.fa.fa-minus.fa-style:hover {
+  color: red;
+}
+.wrapper_chitiet {
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+}
+.hinhanh_sanpham {
+  float: left;
+  width: 30%;
+}
+.chitiet_sanpham {
+  float: left;
+  width: 49%;
+  margin: 0 10px;
+}
+input.themgiohang {
+  border: none;
+  color: fff;
+  padding: 12px;
+  font-size: 15px;
+  cursor: pointer;
+  background: #ccffff;
+}
+input.themgiohang:hover {
+  background: #cf111a;
+  color: white;
+}
+.header {
+  background-image: url(../images/bannerweb.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 290px;
+  border: 1px solid #ff80ff;
+  height: 290px;
+  width: 100%;
+}
+.menu {
+  border: 1px solid #ff0000;
+  height: 50px;
+  width: 100%;
+  background: #ffe4b5;
+}
+ul.list_menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 90%;
+  border: 1px solid;
+  list-style: none;
+  margin: 0 auto;
+  line-height: 27px;
+}
+ul.list_menu li:hover {
+  background: #cf111a;
+}
+ul.list_menu li a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  text-transform: capitalize;
+}
+ul.list_menu li a:hover {
+  color: #ffffff;
+}
+ul.list_menu li {
+  float: left;
+  margin-top: 7px;
+  padding: 5px;
+  border-right: 1px solid #ec4d37;
+}
+ul.baiviet {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul.baiviet li {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+#main {
+  border: 0px solid #cf111a;
+  height: auto;
+  width: 100%;
+}
+.sidebar {
+  height: auto;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+}
+ul.list_sidebar {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  border: 1px solid;
+  list-style: none;
+  line-height: 30px;
+  background: #ffe4b5;
+}
+ul.list_sidebar li:hover {
+  background: #cf111a;
+}
+ul.list_sidebar li a {
+  text-decoration: none;
+  text-align: left;
+  color: black;
+  display: block;
+  border-bottom: 1px solid #ec4d37;
+}
+ul.list_sidebar li a:hover {
+  color: #ffffff;
+}
+ul.list_sidebar li {
+  margin: 7px;
+  padding: 5px;
+}
+.maincontent {
+  height: auto;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: right;
+  background: #ffffff;
+}
+ul.product-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+}
+ul.product-list li img {
+  height: 150px;
+}
+ul.product-list li {
+  width: 22%;
+  border: 1px solid #000;
+  margin: 5px;
+  float: left;
+  height: 300px;
+  background: #ffff;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+ul.product-list li a {
+  text-decoration: none;
+}
+ul.product-list li img {
+  width: 100%;
+}
+p.price_product {
+  text-align: center;
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+p.title_product {
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+p.title_product:hover {
+  color: #f5a623;
+}
+.footer {
+  border: 1px solid #000;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+}
+p.footer_copyright {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.clear {
+  clear: both;
+}
+/* Tabs */
+.tabs {
+  width: 100%;
+  background-color: #ccffff;
+  border-radius: 5px 5px 5px 5px;
+}
+ul#tabs-nav {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+}
+ul#tabs-nav li {
+  float: left;
+  font-weight: bold;
+  margin-right: 2px;
+  padding: 8px 10px;
+  border-radius: 5px 5px 5px 5px;
+  /*border: 1px solid #d5d5de;
+    border-bottom: none;*/
+  cursor: pointer;
+}
+ul#tabs-nav li:hover {
+  background-color: #f5a623;
+}
+ul#tabs-nav li.active {
+  background-color: #f5a623;
+}
+#tabs-nav li a {
+  text-decoration: none;
+  color: black;
+}
+.tab-content {
+  padding: 10px;
+  border: 5px solid #09f;
+  background-color: #fff;
+}
+
+/* jQuery Demo */
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+}
+
+/* Responsive Arrow Progress Bar */
+
+.arrow-steps .step {
+  font-size: 14px;
+  text-align: center;
+  color: #777;
+  cursor: default;
+  margin: 0 1px 0 0;
+  padding: 10px 0px 10px 0px;
+  width: 15%;
+  float: left;
+  position: relative;
+  background-color: #ddd;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 150px;
+  height: 30px;
+  padding-bottom: 30px;
+}
+
+.arrow-steps .step a {
+  color: #777;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -17px;
+  width: 0;
+  height: 0;
+  border-top: 19px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 17px solid #ddd;
+  z-index: 2;
+}
+
+.arrow-steps .step:before {
+  right: auto;
+  left: 0;
+  border-left: 17px solid #fff;
+  z-index: 0;
+}
+
+.arrow-steps .step:first-child:before {
+  border: none;
+}
+
+.arrow-steps .step:last-child:after {
+  border: none;
+}
+
+.arrow-steps .step:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.arrow-steps .step:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.arrow-steps .step span {
+  position: relative;
+}
+
+*.arrow-steps .step.done span:before {
+  opacity: 1;
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -10px;
+  font-size: 11px;
+  line-height: 21px;
+}
+
+.arrow-steps .step.current {
+  color: #fff;
+  background-color: #5599e5;
+  padding-bottom: 30px;
+}
+
+.arrow-steps .step.current a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.arrow-steps .step.current:after {
+  border-left: 17px solid #5599e5;
+}
+
+.arrow-steps .step.done {
+  color: #173352;
+  background-color: #2f69aa;
+}
+
+.arrow-steps .step.done a {
+  color: #173352;
+  text-decoration: none;
+}
+.arrow-steps .step.done:after {
+  border-left: 17px solid #2f69aa;
+}
+footer {
+  background-color: #b4b2b2;
+  display: block;
+}
+footer .row a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  transition: 0.3s;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+footer .gotop {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  z-index: 100;
+}
+footer .row a {
+  position: relative;
+  text-decoration: none;
+  padding: 4px 16px;
+  display: block;
+  transition: right linear 0, 1s;
+}
+footer .row a:hover {
+  right: -4px;
+  color: red;
+}
+
+footer .header {
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+footer .social-icon {
+  text-decoration: none;
+}
+.footer {
+  padding-top: 0px;
+  border: 1px solid #000;
+  height: 150px;
+  width: 100%;
+  clear: left;
+  position: relative;
+  height: 240px;
+  float: left;
+  background: #111;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer h2 {
+  color: #fffaf0;
+}
+
+.footer p {
+  color: #fffaf0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.footer .noi-dung {
+  margin-right: 10px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer .noi-dung p {
+  margin: 5px;
+  font-size: 15px;
+}
+
+.footer .noi-dung.about h2 {
+  margin: 20px;
+}
+
+.footer .noi-dung.about {
+  width: 15%;
+}
+.footer .noi-dung.about h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.footer .noi-dung.about h2:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #f00;
+}
+.footer .noi-dung.about p {
+  color: #999;
+}
+
+.social-icon {
+  margin-top: 20px;
+  display: flex;
+}
+.social-icon li {
+  list-style: none;
+}
+.social-icon li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.social-icon li a:hover {
+  background: #f00;
+}
+.social-icon li a .fa {
+  color: #fff;
+  font-size: 20px;
+}
+
+.links h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.links h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.links h2::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #f00;
+}
+.links {
+  position: relative;
+  width: 25%;
+}
+.links ul li {
+  list-style: none;
+}
+.links ul li a {
+  color: #999;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.links ul li a:hover {
+  color: #fff;
+}
+
+.contact h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.contact h2::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #f00;
+}
+.contact {
+  width: calc(35% - 60px);
+  margin-right: 0 !important;
+}
+.contact .info {
+  position: relative;
+}
+.contact .info li {
+  display: flex;
+  margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.contact .info li span {
+  color: #999;
+}
+.contact .info li a {
+  color: #999;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin-top: 16px;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  background: #ccffff;
+  height: 35px;
+  width: 120px;
+}
+.btn:hover {
+  color: white;
+  background: #cf111a;
+}
+.btn--primary {
+  background: #222;
+  color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 8px 24px;
+}
+.btn--primary:hover {
+  background: #f00;
+}
+.btn--primary:active {
+  background: #f00;
+}
+h3 {
+  font-size: 30px;
+  color: #000000;
+}
+
+h2 {
+  margin-left: 20px;
+  padding-bottom: 30px;
+}
+ul.tintuc {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  margin-left: 29px;
+}
+ul.tintuc li img {
+  height: 200px;
+}
+ul.tintuc li {
+  width: 25%;
+  border: 1px solid #ccc;
+  margin: 20px;
+  float: left;
+  height: 290px;
+  background: #cccccc;
+}
+ul.tintuc li a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #222222;
+}
+
+ul.tintuc li a:hover {
+  color: #3399ff;
+}
+ul.tintuc li img {
+  width: 100%;
+}
+/*tintuc*/
+/*nut cuon len*/
+

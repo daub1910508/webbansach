@@ -1,0 +1,37 @@
+ul.admincp_list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul.admincp_list li {
+  float: left;
+  margin: 5px;
+}
+.clear {
+  clear: both;
+}
+.wrapper {
+  border: 1px solid #000;
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+body {
+  background: url("https://hanoispiritofplace.com/wp-content/uploads/2018/04/hinh-nen-may-tinh-2.jpg")
+    50% fixed;
+  background-size: cover;
+}
+a {
+  color: rgb(20, 11, 146);
+}
+menu {
+  background-color: black;
+}
+.header {
+  background-image: url(../images/bannerweb.gif);
+  background-size: 100% 180px;
+  border: 1px solid #ff80ff;
+  height: 180px;
+  width: 100%;
+}

@@ -1,0 +1,1 @@
+<p>Cảm ơn bạn đã mua và sử dụng sản phẩm của chúng tôi.</p>
